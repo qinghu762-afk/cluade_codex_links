@@ -1,0 +1,11 @@
+node_modules/
+**/fixtures/
+**/installation.json
+**/owner.json
+**/transaction.lock/
+**/.agent-link-stage-*/
+**/.agent-link-backup-*/
+**/*.tmp
+.env
+.env.*
+ClaudeCodexLink/
