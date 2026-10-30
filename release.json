@@ -1,0 +1,18 @@
+{
+  "version": "1.0.1",
+  "body": "# 1.0.1\n\n提供 Windows 原生 Claude Code 与 Codex CLI 用户级联动 skills。两端各安装一次，再分别说“开启联动，允许本次协作的任务结果自动回传”，即可由 skill 自动登记、配对和握手。\n\n- 支持两种开启顺序、唯一会话配对、带标识的握手和任务回传。\n- 使用 Node 绝对路径，适应不同启动目录与 PATH 环境。\n- Windows ACL 与 DPAPI 保护本机运行凭据；分发包不含账号信息和会话记录。\n- 提供安装、升级、卸载说明及可选封面协作示例。\n- 20 项自动化测试通过；真实模型自主闭环需在安装后的目标会话验收。\n\n附件：Claude 单端安装包、Codex 单端安装包、完整分享包。\n\n要求：同一 Windows 用户、同一台电脑；已安装并登录 Claude Code、Codex CLI，Node.js 22+。本次发布标记为 1.0.1，内部消息协议版本仍为 2。\n",
+  "assets": [
+    {
+      "path": "downloads/claude-agent-link.zip",
+      "sha256": "f6f798de11bbc560bb6c17fdf834a9ec203d3ba80f1fd01d9c20ef907a85eee6"
+    },
+    {
+      "path": "downloads/codex-agent-link.zip",
+      "sha256": "0aff3ef9b47ded3c5e8457eafa5e86b89ef239689b2273c98cff5934d507d248"
+    },
+    {
+      "path": "downloads/claude-codex-agent-link.zip",
+      "sha256": "bc4b061ddc1fba7c65b2442211858ab908338a9ac1ce6a8e047d9c56f4b5cecf"
+    }
+  ]
+}

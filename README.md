@@ -1,8 +1,10 @@
 # Claude Code ↔ Codex 联动 Skills
 
+[正式发布 1.0.1](https://github.com/qinghu762-afk/cluade_codex_links/releases/tag/1.0.1)
+
 Windows 原生版，一次安装，两个 CLI 对话各说一句即可登记、配对和握手。
 
-## 下载 v2.0.0
+## 下载 1.0.1
 
 | 安装包 | 下载 |
 |---|---|
